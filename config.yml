@@ -1,0 +1,23 @@
+# When the Halloween update arrives. Sunday October 25, 2026 at 12:00 PM Eastern time.
+target: "2026-10-25 12:00"
+timezone: "America/Toronto"
+
+title: "Halloween Update"
+bar-window-days: 7          # the bar is full 7 days before and empties as the time gets closer
+
+music:
+  enabled: true
+  # Any sound key works. Vanilla spooky options: minecraft:music_disc.13, minecraft:music_disc.11,
+  # minecraft:music_disc.stal. For your own track, add it to a resource pack and use its key.
+  sound: "minecraft:music_disc.13"
+  length-seconds: 178       # how long the track is, so it can loop
+  volume: 0.8
+
+ambient:                    # creepy sounds now and then
+  enabled: true
+  min-seconds: 40
+  max-seconds: 90
+
+finale-message: "The Halloween Update is HERE! Happy Halloween!"
+finale-fireworks: true
+finale-bar-seconds: 60      # how long the bar stays up after the countdown ends

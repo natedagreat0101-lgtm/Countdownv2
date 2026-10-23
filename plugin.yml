@@ -1,0 +1,13 @@
+name: HalloweenCountdown
+version: 1.0
+main: me.halloweencountdown.HalloweenCountdown
+api-version: '1.21'
+description: Countdown to the Halloween update with a boss bar and spooky music
+commands:
+  halloweentimer:
+    description: Show the Halloween countdown, or turn the spooky music on or off
+    usage: /halloweentimer [music|set|reload]
+    aliases: [ht]
+permissions:
+  halloweentimer.admin:
+    default: op
